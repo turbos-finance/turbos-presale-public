@@ -1,5 +1,8 @@
 # Audit evidence - Turbos Launchpad / TurboStar
 
+Audit PDFs retain their original authors' copyright and terms. The repository's MIT
+license applies to Turbos-owned source and documentation; it does not relicense third-party reports.
+
 The original [MoveBit report](movebit-launchpad-2023.pdf) is preserved unchanged.
 
 | Item | Evidence |
