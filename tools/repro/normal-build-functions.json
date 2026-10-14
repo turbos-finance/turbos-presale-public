@@ -1,0 +1,53 @@
+[
+  {
+    "module": "claim",
+    "source": "sources/claim.move",
+    "normalBuildFunctions": [
+      "add_wait_claim_list",
+      "change_claim_info",
+      "change_cliff_time",
+      "change_end_time",
+      "change_start_time",
+      "check_claim_info",
+      "claim",
+      "claim_with_return",
+      "compute_released_amount",
+      "create_claim",
+      "create_claim_with_return",
+      "emergency_deposit",
+      "emergency_switch",
+      "emergency_withdraw",
+      "full_mul",
+      "mul_div_ceil",
+      "recovery_revoke",
+      "revoke"
+    ],
+    "normalSourceSha256": "87df45b06bb4cd9fc574d3f9fed497b6d4800f9bcea48dac5616b51229a1acc9"
+  },
+  {
+    "module": "ido",
+    "source": "sources/ido.move",
+    "normalBuildFunctions": [
+      "add_white_list",
+      "change_allow_overfunding",
+      "change_end_time",
+      "change_fund_amount",
+      "change_raise",
+      "change_start_time",
+      "check_funded",
+      "check_whitelisted",
+      "claim_refund",
+      "create_presale",
+      "delete_white_list",
+      "full_mul",
+      "fund",
+      "is_whitelisted",
+      "mul_div_floor",
+      "set_pub_or_wihte_listed_only",
+      "transfer_funds",
+      "transfer_funds_to_self",
+      "transfer_funds_v2"
+    ],
+    "normalSourceSha256": "8724379c5d076203cff9fc15c34d20b8442b3fca833b2b8dc9e37f3ba0ae7cbf"
+  }
+]

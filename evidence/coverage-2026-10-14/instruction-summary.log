@@ -1,0 +1,243 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on MoveStdlib and Sui. Consider removing these dependencies from `Move.toml`.
++-------------------------+
+| Move Coverage Summary   |
++-------------------------+
+Module 3846dc55562cb04f10580e8e02ae2b532247994abb472b4faf47842079fbf437::claim
+	fun add_wait_claim_list
+		total: 81
+		covered: 69
+		% coverage: 85.19
+	fun change_claim_info
+		total: 50
+		covered: 0
+		% coverage: 0.00
+	fun change_cliff_time
+		total: 35
+		covered: 0
+		% coverage: 0.00
+	fun change_end_time
+		total: 35
+		covered: 0
+		% coverage: 0.00
+	fun change_start_time
+		total: 35
+		covered: 0
+		% coverage: 0.00
+	fun check_claim_info
+		total: 36
+		covered: 0
+		% coverage: 0.00
+	fun claim
+		total: 11
+		covered: 0
+		% coverage: 0.00
+	fun claim_with_return
+		total: 128
+		covered: 86
+		% coverage: 67.19
+	fun compute_released_amount
+		total: 122
+		covered: 120
+		% coverage: 98.36
+	fun create_claim
+		total: 20
+		covered: 0
+		% coverage: 0.00
+	fun create_claim_with_return
+		total: 82
+		covered: 66
+		% coverage: 80.49
+	fun emergency_deposit
+		total: 18
+		covered: 0
+		% coverage: 0.00
+	fun emergency_switch
+		total: 21
+		covered: 0
+		% coverage: 0.00
+	fun emergency_withdraw
+		total: 27
+		covered: 0
+		% coverage: 0.00
+	fun full_mul
+		total: 6
+		covered: 6
+		% coverage: 100.00
+	fun mul_div_ceil
+		total: 13
+		covered: 13
+		% coverage: 100.00
+	fun recovery_revoke
+		total: 39
+		covered: 0
+		% coverage: 0.00
+	fun revoke
+		total: 52
+		covered: 0
+		% coverage: 0.00
+	fun test_claim_no_cliff
+		total: 134
+		covered: 126
+		% coverage: 94.03
+	fun test_claim_no_cliff_first_release
+		total: 153
+		covered: 143
+		% coverage: 93.46
+	fun test_claim_no_vesting
+		total: 123
+		covered: 117
+		% coverage: 95.12
+	fun test_claim_with_cliff
+		total: 155
+		covered: 145
+		% coverage: 93.55
+	fun test_init_claim
+		total: 88
+		covered: 76
+		% coverage: 86.36
+	fun unit_test_poison
+		total: 2
+		covered: 0
+		% coverage: 0.00
+>>> % Module coverage: 65.96
+Module 3846dc55562cb04f10580e8e02ae2b532247994abb472b4faf47842079fbf437::ido
+	fun add_white_list
+		total: 47
+		covered: 43
+		% coverage: 91.49
+	fun change_allow_overfunding
+		total: 24
+		covered: 0
+		% coverage: 0.00
+	fun change_end_time
+		total: 35
+		covered: 0
+		% coverage: 0.00
+	fun change_fund_amount
+		total: 29
+		covered: 0
+		% coverage: 0.00
+	fun change_raise
+		total: 24
+		covered: 0
+		% coverage: 0.00
+	fun change_start_time
+		total: 35
+		covered: 0
+		% coverage: 0.00
+	fun check_funded
+		total: 71
+		covered: 0
+		% coverage: 0.00
+	fun check_whitelisted
+		total: 11
+		covered: 0
+		% coverage: 0.00
+	fun claim_refund
+		total: 106
+		covered: 0
+		% coverage: 0.00
+	fun create_presale
+		total: 51
+		covered: 51
+		% coverage: 100.00
+	fun delete_white_list
+		total: 46
+		covered: 0
+		% coverage: 0.00
+	fun full_mul
+		total: 6
+		covered: 0
+		% coverage: 0.00
+	fun fund
+		total: 149
+		covered: 135
+		% coverage: 90.60
+	fun is_whitelisted
+		total: 5
+		covered: 5
+		% coverage: 100.00
+	fun mul_div_floor
+		total: 8
+		covered: 0
+		% coverage: 0.00
+	fun set_pub_or_wihte_listed_only
+		total: 21
+		covered: 21
+		% coverage: 100.00
+	fun test_all
+		total: 1
+		covered: 1
+		% coverage: 100.00
+	fun test_endtime
+		total: 79
+		covered: 25
+		% coverage: 31.65
+	fun test_fund
+		total: 144
+		covered: 134
+		% coverage: 93.06
+	fun test_fund_max
+		total: 179
+		covered: 165
+		% coverage: 92.18
+	fun test_fund_outof_max
+		total: 179
+		covered: 131
+		% coverage: 73.18
+	fun test_fund_save
+		total: 74
+		covered: 72
+		% coverage: 97.30
+	fun test_fund_transfer
+		total: 125
+		covered: 119
+		% coverage: 95.20
+	fun test_fund_transfer_to
+		total: 122
+		covered: 116
+		% coverage: 95.08
+	fun test_fund_twice
+		total: 96
+		covered: 69
+		% coverage: 71.88
+	fun test_init_presale
+		total: 88
+		covered: 78
+		% coverage: 88.64
+	fun test_manage_ablitiy
+		total: 56
+		covered: 48
+		% coverage: 85.71
+	fun test_starttime
+		total: 76
+		covered: 25
+		% coverage: 32.89
+	fun test_wihte_list
+		total: 79
+		covered: 79
+		% coverage: 100.00
+	fun test_wihte_list_only
+		total: 89
+		covered: 73
+		% coverage: 82.02
+	fun transfer_funds
+		total: 56
+		covered: 42
+		% coverage: 75.00
+	fun transfer_funds_to_self
+		total: 28
+		covered: 18
+		% coverage: 64.29
+	fun transfer_funds_v2
+		total: 71
+		covered: 52
+		% coverage: 73.24
+	fun unit_test_poison
+		total: 2
+		covered: 0
+		% coverage: 0.00
+>>> % Module coverage: 67.90
++-------------------------+
+| % Move Coverage: 67.13  |
++-------------------------+

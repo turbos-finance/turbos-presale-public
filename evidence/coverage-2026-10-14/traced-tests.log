@@ -1,0 +1,25 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on MoveStdlib and Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY Sui
+BUILDING PreSale
+Running Move unit tests
+[ PASS    ] presale::ido::test_all
+[ PASS    ] presale::ido::test_endtime
+[ PASS    ] presale::claim::test_claim_no_cliff
+[ PASS    ] presale::ido::test_fund
+[ PASS    ] presale::claim::test_claim_no_cliff_first_release
+[ PASS    ] presale::ido::test_fund_max
+[ PASS    ] presale::claim::test_claim_no_vesting
+[ PASS    ] presale::ido::test_fund_outof_max
+[ PASS    ] presale::claim::test_claim_with_cliff
+[ PASS    ] presale::claim::test_init_claim
+[ PASS    ] presale::ido::test_fund_save
+[ PASS    ] presale::ido::test_fund_transfer
+[ PASS    ] presale::ido::test_fund_transfer_to
+[ PASS    ] presale::ido::test_fund_twice
+[ PASS    ] presale::ido::test_init_presale
+[ PASS    ] presale::ido::test_manage_ablitiy
+[ PASS    ] presale::ido::test_starttime
+[ PASS    ] presale::ido::test_wihte_list
+[ PASS    ] presale::ido::test_wihte_list_only
+Test result: OK. Total tests: 19; passed: 19; failed: 0
