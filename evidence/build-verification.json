@@ -1,0 +1,16 @@
+{
+  "project": "launchpad",
+  "packageId": "0x9554595a9b1bc9fcd3253ad0c74e99983181267c8dea6b7ea2a898ec7a09cea5",
+  "version": 3,
+  "sourceRevision": "83ae1a30b9f112523e3b80de14d62209d0e83851",
+  "verificationRecordedAt": "2026-09-29T02:13:38.073Z",
+  "archivedVerification": [
+    {
+      "commit": "83ae1a30b9f112523e3b80de14d62209d0e83851",
+      "result": "PASS",
+      "output": "Source verification succeeded!"
+    }
+  ],
+  "freshVerificationPerformed": false,
+  "qualification": null
+}

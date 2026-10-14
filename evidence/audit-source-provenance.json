@@ -1,0 +1,48 @@
+{
+  "project": "launchpad",
+  "anchors": [
+    {
+      "originalRevision": "297c0ff8e9b1dd52e970fe282fd7cb902696f537",
+      "publication": "audits/source-anchors/297c0ff8e9b1dd52e970fe282fd7cb902696f537",
+      "files": [
+        {
+          "path": "sources/ido.move",
+          "sha256": "ece5856a5f1bb4bb0a1fe572f30384db45e47e713dbfc02e1ede2ef5907b5c80",
+          "gitBlob": "abdcd22f236aea0ead3670c888f50e70b2437ec5"
+        }
+      ]
+    },
+    {
+      "originalRevision": "7cd3aaa328b86769935490d90fad464473899d80",
+      "publication": "audits/source-anchors/7cd3aaa328b86769935490d90fad464473899d80",
+      "files": [
+        {
+          "path": "sources/claim.move",
+          "sha256": "b854ef48c19a29702807fc175b40273368e7f2074df7c49ac19c08d9fa9a2919",
+          "gitBlob": "f8fe91ec81c750ae5de74ecf1b02ce6f02fac53b"
+        },
+        {
+          "path": "sources/ido.move",
+          "sha256": "eb1ce60e54e51f8881519e1f4c2c01c4e3b3a4e07965a5d0802382dfc8c5ae10",
+          "gitBlob": "9d09b2f17bf23f2d174d6712b32581643f093784"
+        }
+      ]
+    },
+    {
+      "originalRevision": "52f292ae5331dd9f795bffbe66441950aa58a977",
+      "publication": "audits/source-anchors/52f292ae5331dd9f795bffbe66441950aa58a977",
+      "files": [
+        {
+          "path": "sources/claim.move",
+          "sha256": "9a8f87854e8ff02118ea9cafd3ca8ab77cf9ba2d49157171e58d6de51a3624c5",
+          "gitBlob": "6b92c26cabe9dea414531246489343819d3c4e03"
+        },
+        {
+          "path": "sources/ido.move",
+          "sha256": "eb1ce60e54e51f8881519e1f4c2c01c4e3b3a4e07965a5d0802382dfc8c5ae10",
+          "gitBlob": "9d09b2f17bf23f2d174d6712b32581643f093784"
+        }
+      ]
+    }
+  ]
+}

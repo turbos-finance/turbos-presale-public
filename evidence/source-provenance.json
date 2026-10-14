@@ -1,0 +1,21 @@
+{
+  "project": "launchpad",
+  "packageId": "0x9554595a9b1bc9fcd3253ad0c74e99983181267c8dea6b7ea2a898ec7a09cea5",
+  "version": 3,
+  "originalRevision": "83ae1a30b9f112523e3b80de14d62209d0e83851",
+  "contractAndTestFilesUnchanged": true,
+  "files": [
+    {
+      "path": "sources/claim.move",
+      "gitBlob": "904d43d62111a3c8c0cec287b3d970ab0f1d73b9",
+      "sha256": "87df45b06bb4cd9fc574d3f9fed497b6d4800f9bcea48dac5616b51229a1acc9",
+      "bytes": 22717
+    },
+    {
+      "path": "sources/ido.move",
+      "gitBlob": "ee0b56b4c9ea4931e742466c2b2bcdc81d5feffe",
+      "sha256": "8724379c5d076203cff9fc15c34d20b8442b3fca833b2b8dc9e37f3ba0ae7cbf",
+      "bytes": 28781
+    }
+  ]
+}

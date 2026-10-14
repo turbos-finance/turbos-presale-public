@@ -1,0 +1,10 @@
+{
+  "project": "launchpad",
+  "reports": [
+    {
+      "file": "audits/movebit-launchpad-2023.pdf",
+      "sha256": "c788405cdce15997cf8286eefd5788665ea2545c317e959958b6b90982c208be",
+      "bytes": 1265533
+    }
+  ]
+}
