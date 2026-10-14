@@ -1,0 +1,23 @@
+{
+  "exitCode": 0,
+  "gasLimit": "1000000000",
+  "testResult": {
+    "status": "OK",
+    "total": 19,
+    "passed": 19,
+    "failed": 0
+  },
+  "failedTests": [],
+  "missingDependency": false,
+  "date": "2026-10-14",
+  "sourceCommit": "ef143cc811638f77436d8c8bf712efa4afed34b3",
+  "packageId": "0x9554595a9b1bc9fcd3253ad0c74e99983181267c8dea6b7ea2a898ec7a09cea5",
+  "toolchain": "sui 1.66.2-a9a6825eaf62 (Darwin arm64)",
+  "testFrameworkCommit": "a9a6825eaf6273cc819ee3bcf65fd4909f7624a9",
+  "testOverlayApplied": true,
+  "modifications": "There are 19 inline tests despite no standalone tests directory. Two positive withdrawal tests now advance the test clock to (END_TIME + 1) * 1000 milliseconds, after the sale end time in seconds. No production function or assertion changed; IDO contract remediation remains out of scope.",
+  "productionLogicChanged": false,
+  "coverageGenerated": false,
+  "coverageLimitation": "Installed CLI lacks tracing support; no line or branch coverage measured.",
+  "exhaustiveAuthorizationCoverage": false
+}

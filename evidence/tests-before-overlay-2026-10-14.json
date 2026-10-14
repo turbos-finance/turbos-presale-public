@@ -1,0 +1,16 @@
+{
+  "exitCode": 1,
+  "gasLimit": "1000000000",
+  "testResult": {
+    "status": "FAILED",
+    "total": 19,
+    "passed": 17,
+    "failed": 2
+  },
+  "failedTests": [
+    "presale::ido::test_fund_transfer",
+    "presale::ido::test_fund_transfer_to"
+  ],
+  "missingDependency": false,
+  "scope": "Before the explicit test overlay"
+}

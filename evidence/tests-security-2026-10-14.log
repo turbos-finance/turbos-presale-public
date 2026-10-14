@@ -1,0 +1,70 @@
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY Sui
+BUILDING PreSale
+Running Move unit tests
+[ PASS    ] presale::ido::test_all
+[ PASS    ] presale::claim::test_claim_no_cliff
+[ PASS    ] presale::ido::test_endtime
+[ PASS    ] presale::claim::test_claim_no_cliff_first_release
+[ PASS    ] presale::claim::test_claim_no_vesting
+[ PASS    ] presale::ido::test_fund
+[ PASS    ] presale::claim::test_claim_with_cliff
+[ PASS    ] presale::ido::test_fund_max
+[ PASS    ] presale::claim::test_init_claim
+[ PASS    ] presale::ido::test_fund_outof_max
+[ PASS    ] presale::ido::test_fund_save
+[ PASS    ] presale::ido::test_fund_transfer
+[ PASS    ] presale::ido::test_fund_transfer_to
+[ PASS    ] presale::ido::test_fund_twice
+[ PASS    ] presale::ido::test_init_presale
+[ PASS    ] presale::ido::test_manage_ablitiy
+[ PASS    ] presale::ido::test_starttime
+[ PASS    ] presale::ido::test_wihte_list
+[ PASS    ] presale::ido::test_wihte_list_only
+
+Test Statistics:
+
+┌───────────────────────────────────────────────────┬────────────┬───────────────────────────┐
+│                     Test Name                     │    Time    │         Gas Used          │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::claim::test_claim_no_cliff               │   0.028    │         998000021         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::claim::test_claim_no_cliff_first_release │   0.014    │         998000026         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::claim::test_claim_no_vesting             │   0.015    │         998000017         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::claim::test_claim_with_cliff             │   0.014    │         998000023         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::claim::test_init_claim                   │   0.016    │         998000005         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::ido::test_all                            │   0.026    │         998000001         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::ido::test_endtime                        │   0.014    │         998000003         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::ido::test_fund                           │   0.016    │         998000024         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::ido::test_fund_max                       │   0.015    │         998000028         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::ido::test_fund_outof_max                 │   0.016    │         998000024         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::ido::test_fund_save                      │   0.011    │         998000016         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::ido::test_fund_transfer                  │   0.012    │         998000025         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::ido::test_fund_transfer_to               │   0.011    │         998000022         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::ido::test_fund_twice                     │   0.011    │         998000018         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::ido::test_init_presale                   │   0.010    │         998000010         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::ido::test_manage_ablitiy                 │   0.011    │         998000010         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::ido::test_starttime                      │   0.025    │         998000003         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::ido::test_wihte_list                     │   0.012    │         998000019         │
+├───────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ presale::ido::test_wihte_list_only                │   0.011    │         998000016         │
+└───────────────────────────────────────────────────┴────────────┴───────────────────────────┘
+
+Test result: OK. Total tests: 19; passed: 19; failed: 0
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on MoveStdlib and Sui. Consider removing these dependencies from `Move.toml`.

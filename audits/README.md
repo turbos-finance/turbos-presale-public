@@ -28,5 +28,8 @@ on subsequent versions is implied.
 
 Deployed v3 originates from `83ae1a30b9f112523e3b80de14d62209d0e83851`.
 Relative to the last audited commit, the two source modules contain 647 insertions and
-140 deletions. A delta review, complete finding-to-fix/test matrix, standalone Move tests,
-coverage evidence and IDO version-retirement remediation are outstanding.
+140 deletions. The deployed source contains 19 inline Move tests (5 in claim, 14 in ido),
+despite having no standalone tests directory. Their explicit fixture corrections and
+passing run are published in evidence/AUTH-TEST-MATRIX.md. A delta review, complete
+finding-to-fix/test matrix, coverage evidence and IDO version-retirement remediation
+are still outstanding.

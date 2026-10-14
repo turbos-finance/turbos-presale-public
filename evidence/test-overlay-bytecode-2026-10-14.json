@@ -1,0 +1,42 @@
+{
+  "verifiedAt": "2026-10-14T09:08:05.984Z",
+  "packageId": "0x9554595a9b1bc9fcd3253ad0c74e99983181267c8dea6b7ea2a898ec7a09cea5",
+  "originalId": "0x3846dc55562cb04f10580e8e02ae2b532247994abb472b4faf47842079fbf437",
+  "version": "3",
+  "comparison": "Exact byte-for-byte module BCS; no normalization or exceptions",
+  "allModulesMatch": true,
+  "modules": [
+    {
+      "module": "claim",
+      "present": true,
+      "match": true,
+      "builtBytes": 3616,
+      "deployedBytes": 3616,
+      "builtSha256": "6eabe4f1e466dd79f478bf9c243bcb31511e6aa3e77f9690aae66bba5ba934c1",
+      "deployedSha256": "6eabe4f1e466dd79f478bf9c243bcb31511e6aa3e77f9690aae66bba5ba934c1"
+    },
+    {
+      "module": "ido",
+      "present": true,
+      "match": true,
+      "builtBytes": 3773,
+      "deployedBytes": 3773,
+      "builtSha256": "6b92e60b0f7173a6750e2d586ec25b81eea4bb38d5f28b82452d843eaecec795",
+      "deployedSha256": "6b92e60b0f7173a6750e2d586ec25b81eea4bb38d5f28b82452d843eaecec795"
+    }
+  ],
+  "extra": [],
+  "linkage": [
+    {
+      "originalId": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "upgradedId": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "upgradedVersion": "14"
+    },
+    {
+      "originalId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "upgradedId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "upgradedVersion": "30"
+    }
+  ],
+  "scope": "Normal (non-test) build after the explicit test-only source overlay; all root BCS module bytes exactly match mainnet. Linkage not independently compared."
+}
