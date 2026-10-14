@@ -1,0 +1,48 @@
+{
+  "verifiedAt": "2026-10-14T08:33:35.026Z",
+  "packageId": "0x9554595a9b1bc9fcd3253ad0c74e99983181267c8dea6b7ea2a898ec7a09cea5",
+  "originalId": "0x3846dc55562cb04f10580e8e02ae2b532247994abb472b4faf47842079fbf437",
+  "version": "3",
+  "comparison": "Exact byte-for-byte module BCS; no normalization or exceptions",
+  "allModulesMatch": true,
+  "modules": [
+    {
+      "module": "claim",
+      "present": true,
+      "match": true,
+      "builtBytes": 3616,
+      "deployedBytes": 3616,
+      "builtSha256": "6eabe4f1e466dd79f478bf9c243bcb31511e6aa3e77f9690aae66bba5ba934c1",
+      "deployedSha256": "6eabe4f1e466dd79f478bf9c243bcb31511e6aa3e77f9690aae66bba5ba934c1"
+    },
+    {
+      "module": "ido",
+      "present": true,
+      "match": true,
+      "builtBytes": 3773,
+      "deployedBytes": 3773,
+      "builtSha256": "6b92e60b0f7173a6750e2d586ec25b81eea4bb38d5f28b82452d843eaecec795",
+      "deployedSha256": "6b92e60b0f7173a6750e2d586ec25b81eea4bb38d5f28b82452d843eaecec795"
+    }
+  ],
+  "extra": [],
+  "linkage": [
+    {
+      "originalId": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "upgradedId": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "upgradedVersion": "14"
+    },
+    {
+      "originalId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "upgradedId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "upgradedVersion": "30"
+    }
+  ],
+  "sourceCommit": "ef143cc811638f77436d8c8bf712efa4afed34b3",
+  "sourceRepository": "https://github.com/turbos-finance/turbos-presale-public",
+  "toolchain": "sui 1.66.2-a9a6825eaf62 (Darwin arm64)",
+  "frameworkCommit": "25804c243d07dd73c0d199e7794383bd855cd436",
+  "sourceAndExistingTestsUnchanged": true,
+  "scope": "All root-package module BCS bytes only. The included on-chain linkage is recorded, not independently compared. This is not a complete verify-source, security audit, coverage report, or mvr-add consumer test.",
+  "manifestRecipe": "tools/repro/root.Move.toml"
+}

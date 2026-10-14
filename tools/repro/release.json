@@ -1,0 +1,10 @@
+{
+  "project": "launchpad",
+  "repository": "https://github.com/turbos-finance/turbos-presale-public",
+  "sourceCommit": "ef143cc811638f77436d8c8bf712efa4afed34b3",
+  "packageId": "0x9554595a9b1bc9fcd3253ad0c74e99983181267c8dea6b7ea2a898ec7a09cea5",
+  "packageName": "PreSale",
+  "version": 3,
+  "frameworkLegacy": "25804c243d07dd73c0d199e7794383bd855cd436",
+  "frameworkCurrent": "a9a6825eaf6273cc819ee3bcf65fd4909f7624a9"
+}
