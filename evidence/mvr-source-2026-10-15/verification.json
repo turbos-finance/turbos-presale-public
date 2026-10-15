@@ -1,0 +1,43 @@
+{
+  "verifiedAt": "2026-10-15T02:24:16.679Z",
+  "network": "mainnet",
+  "packageId": "0x9554595a9b1bc9fcd3253ad0c74e99983181267c8dea6b7ea2a898ec7a09cea5",
+  "originalId": "0x3846dc55562cb04f10580e8e02ae2b532247994abb472b4faf47842079fbf437",
+  "version": "3",
+  "sourceAnchor": "ef143cc811638f77436d8c8bf712efa4afed34b3",
+  "sourceAndTestsUnchangedFromPreviousPublicHead": true,
+  "previousPublicHead": "bb5afa0004a8210e699476f03af655459e849543",
+  "toolchain": "sui 1.66.2-a9a6825eaf62",
+  "officialCommand": "sui client verify-source --build-env mainnet --silence-warnings --no-lint",
+  "officialExitCode": 0,
+  "exactRootModules": 2,
+  "allRootModuleBytesMatch": true,
+  "metadataFiles": [
+    {
+      "file": "Move.toml",
+      "sha256": "74f7b7de9a3320bbc9c2c1782699ce94320d29693db3a9d35ad3946fc75220b1"
+    },
+    {
+      "file": "Move.lock",
+      "sha256": "e90698ee58e55d4ce243c1baa69df7e6831b0bcab7804a2dc3ee6a2edf66a53a"
+    },
+    {
+      "file": "Published.toml",
+      "sha256": "9bcc1a5d784e5e83cde477befd46731ba542c0df07719a7665726cebe216bd65"
+    }
+  ],
+  "onChainLinkage": [
+    {
+      "originalId": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "upgradedId": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "upgradedVersion": "14"
+    },
+    {
+      "originalId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "upgradedId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "upgradedVersion": "30"
+    }
+  ],
+  "scope": "Official root source verification and independent exact root-module BCS comparison. Dependency source modules were not independently verified (--verify-deps was not used). No mainnet transaction or contract upgrade.",
+  "mvrStatus": "Existing registration still points to the previous source anchor. A separate owner-signed GitInfo update and fresh-cache MVR consumption test are required."
+}

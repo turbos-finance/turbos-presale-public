@@ -33,3 +33,7 @@ sui client verify-source
 The archived source verification passed on 2026-09-29. No standalone Move unit-test
 files are present in the deployed revision. Comprehensive authorization tests and
 published line/branch coverage are still required; this release does not claim those complete.
+
+## Current-release metadata verification (2026-10-15)
+
+See [verified build configuration and official source-verification evidence](evidence/mvr-source-2026-10-15/README.md). This update does not change production functions. MVR GitInfo update and a fresh-cache registry-consumer run are separate follow-ups.
