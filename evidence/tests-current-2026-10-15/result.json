@@ -1,0 +1,41 @@
+{
+  "startedAt": "2026-10-15T07:56:17.617Z",
+  "completedAt": "2026-10-15T07:56:35.122Z",
+  "project": "launchpad",
+  "toolchain": "sui 1.66.2-a9a6825eaf62",
+  "testFrameworkCommit": "a9a6825eaf6273cc819ee3bcf65fd4909f7624a9",
+  "clmmMetadataCommit": null,
+  "command": [
+    "sui",
+    "move",
+    "test",
+    "--path",
+    "DISPOSABLE_DIRECTORY",
+    "--build-env",
+    "mainnet",
+    "--silence-warnings",
+    "--no-lint",
+    "--gas-limit",
+    "1000000000",
+    "--threads",
+    "1"
+  ],
+  "exitCode": 0,
+  "diskStopped": false,
+  "timedOut": false,
+  "testResult": {
+    "status": "OK",
+    "total": 19,
+    "passed": 19,
+    "failed": 0
+  },
+  "currentCheckoutSourcesAndTests": true,
+  "sourceAndTestsUnchanged": true,
+  "sourceTreeSha256": "d7960d378daa5da73f4918c4407750f80d84df17b6688f99e72c654ea988d4c9",
+  "coverageMeasured": false,
+  "scope": "Current-checkout unit tests only; production bytecode verification is separate",
+  "previousPublicHead": "5540a92f295c0e5fedbaf2628d6ad5fe2f250b43",
+  "notes": "The two previously published clock-fixture corrections are directly in the existing inline IDO tests. Production functions and assertions are unchanged.",
+  "productionBytecodeStillMatches": true,
+  "allAuthorizationAndInvariantCasesCovered": false
+}

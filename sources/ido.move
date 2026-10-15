@@ -678,6 +678,7 @@ module presale::ido {
         fund(&mut presale, coin, &clock, &mut ctx);
         assert!(coin::value(&presale.balance) == 2 * DECIMA, 1);
         next_tx(&mut scenario, sender);
+        clock::increment_for_testing(&mut clock, (END_TIME + 1) * 1000);
         transfer_funds_to_self(&mut presale, &cap, &clock,&mut ctx);
         assert!(coin::value(&presale.balance) == 0 * DECIMA, 2);
         next_tx(&mut scenario, sender);
@@ -705,6 +706,7 @@ module presale::ido {
         fund(&mut presale, coin, &clock, &mut ctx);
         assert!(coin::value(&presale.balance) == 2 * DECIMA, 1);
 
+        clock::increment_for_testing(&mut clock, (END_TIME + 1) * 1000);
         transfer_funds(&mut presale, &cap, sender, &clock,&mut ctx);
         assert!(coin::value(&presale.balance) == 0 * DECIMA, 2);
         next_tx(&mut scenario, sender);

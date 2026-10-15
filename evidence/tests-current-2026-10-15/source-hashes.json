@@ -1,0 +1,10 @@
+[
+  {
+    "file": "sources/claim.move",
+    "sha256": "87df45b06bb4cd9fc574d3f9fed497b6d4800f9bcea48dac5616b51229a1acc9"
+  },
+  {
+    "file": "sources/ido.move",
+    "sha256": "ecc7dbf362cc48fb52e5cad1a5dfe375865c288b64690ea081a41483927aaa2a"
+  }
+]
