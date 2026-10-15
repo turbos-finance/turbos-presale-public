@@ -1,0 +1,8 @@
+[package]
+name = "PublicConsumerlaunchpad"
+edition = "2024"
+[addresses]
+consumer = "0x0"
+
+[dependencies]
+presale = { r.mvr = "@turbos/launchpad/3" }

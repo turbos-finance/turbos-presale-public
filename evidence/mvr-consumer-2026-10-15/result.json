@@ -1,0 +1,82 @@
+{
+  "completedAt": "2026-10-15T07:34:30.953Z",
+  "project": "launchpad",
+  "network": "mainnet",
+  "mvrName": "@turbos/launchpad",
+  "version": 3,
+  "packageId": "0x9554595a9b1bc9fcd3253ad0c74e99983181267c8dea6b7ea2a898ec7a09cea5",
+  "sourceCommit": "992d27abad738653ad9dc8acbc14c34217fbe0c5",
+  "registryIndexedCorrectCommit": true,
+  "versionedRegistry": {
+    "name": "@turbos/launchpad",
+    "metadata": {
+      "contact": "ted@turbos.finance; bruce@turbos.finance",
+      "description": "Turbos Launchpad",
+      "homepage_url": "https://app.turbos.finance",
+      "documentation_url": "https://github.com/turbos-finance/turbos-presale-public/blob/main/README.md"
+    },
+    "package_info": {
+      "id": "0x475195f8a13d7f181e0dc03280cfbf4972ff2046ba2329cc8ab4bb4416b3584e",
+      "git_table_id": "0x81295223bbd62a67a15432fa7c7e976fc4cc24084611a8b104aa9de032483135",
+      "default_name": "@turbos/launchpad",
+      "metadata": {
+        "default": "@turbos/launchpad"
+      }
+    },
+    "git_info": {
+      "repository_url": "https://github.com/turbos-finance/turbos-presale-public",
+      "path": "",
+      "tag": "992d27abad738653ad9dc8acbc14c34217fbe0c5"
+    },
+    "version": 3,
+    "package_address": "0x9554595a9b1bc9fcd3253ad0c74e99983181267c8dea6b7ea2a898ec7a09cea5"
+  },
+  "latestRegistryAlsoMatches": true,
+  "metadataUpdate": {
+    "digest": "3HB1FGc4ZVXe55sXaDAuKckBWpxBhZ5uT7rJYUzt2qkv",
+    "sender": "0x590505df06a8832754e19476bc791fab20c1bd5b417dccb55e4e663d26e7b889",
+    "success": true,
+    "proposalCommandsAndInputsMatch": true
+  },
+  "toolchain": "sui 1.66.2-a9a6825eaf62",
+  "resolver": "mvr 0.1.0-d85f8ad92add",
+  "cacheScope": "A new empty MOVE_HOME was created for this five-package run; dependencies downloaded normally and were shared between its consumers. No old Move cache was seeded or edited.",
+  "nonEmptyImport": true,
+  "checks": [
+    {
+      "label": "launchpad-mvr-add",
+      "start": "2026-10-15T07:32:09.943Z",
+      "end": "2026-10-15T07:32:20.975Z",
+      "command": [
+        "mvr",
+        "add",
+        "@turbos/launchpad/3"
+      ],
+      "exitCode": 0
+    },
+    {
+      "label": "launchpad-build",
+      "start": "2026-10-15T07:32:20.975Z",
+      "end": "2026-10-15T07:32:23.458Z",
+      "command": [
+        "sui",
+        "move",
+        "build",
+        "--build-env",
+        "mainnet",
+        "--silence-warnings",
+        "--no-lint"
+      ],
+      "exitCode": 0
+    }
+  ],
+  "allPassed": true,
+  "noMainnetTransactionByVerifier": true,
+  "limitations": "Consumer compilation proves dependency resolution and public function type checking, not runtime execution, full authorization/invariant testing, audit closure, all historical versions, or all peripheral packages.",
+  "freshlyBuiltDependencyModules": {
+    "allMatch": true,
+    "count": 2,
+    "referenceChainReadAt": "2026-10-15T02:24:54.283Z",
+    "scope": "SHA-256 of freshly MVR-built dependency module BCS versus recorded immutable deployed-package module hashes; no new chain fetch"
+  }
+}

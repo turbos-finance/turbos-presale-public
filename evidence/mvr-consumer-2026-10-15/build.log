@@ -1,0 +1,8 @@
+Output from mvr:
+  │ [mvr] detected supported SUI CLI version
+  │ [mvr] resolving: "@turbos/launchpad/3" on network:  mainnet
+
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY PreSale
+INCLUDING DEPENDENCY Sui
+BUILDING PublicConsumerlaunchpad
